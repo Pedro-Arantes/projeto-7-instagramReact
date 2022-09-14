@@ -11,8 +11,11 @@ body {
   font-size: 14px;
 }
 
-.root > div{
-   width: 100%;
+
+
+.pencil{
+  display: inline-flex;
+  margin-left: 10px;
 }
 
 .navbar {
