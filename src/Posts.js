@@ -12,7 +12,7 @@ export default function Posts() {
         <div className="posts">
 
 
-            {array.map((item, i) => <Post UserImg={item.UserImg} src={item.src} user={item.user} img={item.img} CurtImg={item.CurtImg} NameTxt={item.NameTxt} NumTxt={item.NumTxt} key={i} />)}
+            {array.map((item, i) => <Post UserImg={item.UserImg} src={item.src} user={item.user} img={item.img} CurtImg={item.CurtImg} NameTxt={item.NameTxt} NumTxt={item.NumTxt} key={i}  id = {i}/>)}
 
         </div>
     )

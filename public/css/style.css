@@ -11,11 +11,14 @@ body {
   font-size: 14px;
 }
 
-
+.Red{
+  color: red;
+}
 
 .pencil{
   display: inline-flex;
   margin-left: 10px;
+  margin-top: 5px;
   cursor:pointer;
 }
 
