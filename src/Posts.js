@@ -1,10 +1,11 @@
 import Post  from "./Post";
+import Contador from "./Contador";
 
 export default function Posts() {
 
-    const array = [{ user: "meowed", UserImg: "assets/img/meowed.svg", img: "assets/img/gato-telefone.svg", CurtImg: "assets/img/respondeai.svg", NameTxt: "respondeai", NumTxt: "101.523" },
+    const array = [{ user: "meowed", UserImg: "assets/img/meowed.svg", img: "assets/img/gato-telefone.svg", CurtImg: "assets/img/respondeai.svg", NameTxt: "respondeai", NumTxt: Contador(101523,0) },
 
-    { user: "barked", UserImg: "assets/img/barked.svg", img: "assets/img/dog.svg", CurtImg: "assets/img/adorable_animals.svg", NameTxt: "adorable_animals", NumTxt: "99.159" }];
+    { user: "barked", UserImg: "assets/img/barked.svg", img: "assets/img/dog.svg", CurtImg: "assets/img/adorable_animals.svg", NameTxt: "adorable_animals", NumTxt: Contador(99159,0)  }];
 
 
 
