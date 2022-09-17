@@ -72,7 +72,7 @@ export default function Post(props) {
     const curtidas = <div className="curtidas">
         <img alt="" src={props.CurtImg} />
         <div className="texto">
-            Curtido por <strong>{props.NameTxt}</strong> e <strong>outras <span id={id1}>{contador}</span>  pessoas</strong>
+            Curtido por <strong>{props.NameTxt}</strong> e <strong>outras <span id={id1}>{contador.toLocaleString('pt-br').replace(/,/g, '.')}</span>  pessoas</strong>
         </div>
     </div>;
 
