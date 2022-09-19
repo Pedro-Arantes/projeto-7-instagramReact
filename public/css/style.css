@@ -158,6 +158,8 @@ body {
   color: #FFF;
   font-size: 28px;
   cursor: pointer;
+
+  filter: drop-shadow(0 4px 4px gray);
 }
 
 .post {
